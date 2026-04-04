@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Summit Pool Service",
+    "phone": "555-poo-r91",
+    "category": "pool-service",
+    "city": "Miami",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "pool-service-mountain-bold",
+      "categoryGroup": "pool-service",
+      "name": "Mountain Bold",
+      "recipeFile": "pool-service/mountain-bold.astro",
+      "colors": {
+        "primary": "#164E63",
+        "primaryDark": "#0f3745",
+        "primaryLight": "#c5d3d8",
+        "secondary": "#0891B2",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#164E63",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "pool-service/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Miami's Trusted Pool Service Experts",
+      "heroSubline": "Keeping South Florida pools pristine year-round. Specializing in saltwater systems and hurricane prep for coastal homes.",
+      "aboutTitle": "Serving Miami Since 2012",
+      "aboutText": [
+        "Founded during Miami's post-recession building boom, Summit Pool Service grew from a single truck servicing Brickell condos to a full team covering all of Miami-Dade and Broward counties.",
+        "We combine old-school craftsmanship with modern water chemistry testing, specializing in combating South Florida's unique challenges like salt air corrosion and intense UV degradation.",
+        "When Hurricane Irma hit in 2017, we secured over 300 pools across Coconut Grove. That commitment to community protection still drives us today."
+      ],
+      "valueProps": [
+        {
+          "title": "Hurricane-Ready Pools",
+          "description": "Storm prep protocols developed through 12 tropical seasons"
+        },
+        {
+          "title": "Saltwater Specialists",
+          "description": "Precision care for corrosion-prone coastal pool systems"
+        },
+        {
+          "title": "Concrete Expertise",
+          "description": "Decades of experience with Miami's common CBS pool decks"
+        },
+        {
+          "title": "Water Testing Lab",
+          "description": "On-site analysis for algae and mineral imbalances"
+        }
+      ],
+      "ctaHeadline": "Schedule Your Pool Analysis",
+      "ctaSubline": "Get a free water test and hurricane prep assessment this week"
+    },
+    "services": [
+      {
+        "slug": "saltwater-pool-maintenance",
+        "name": "Saltwater Pool Maintenance",
+        "shortDescription": "Specialized care for coastal pools battling salt air corrosion.",
+        "description": "Miami's oceanfront properties require unique pool care. Our saltwater maintenance program combats the accelerated corrosion of heaters, ladders, and coping common in coastal communities from South Beach to Sunny Isles.\n\nWe use sacrificial anodes to protect equipment and test chloride levels monthly. All technicians carry marine-grade lubricants for hardware joints. Includes quarterly acid washing to prevent scale buildup on salt cells.\n\nFor waterfront high-rises, we implement wind-adjusted chemical dosing to account for spray evaporation. All service vehicles stock replacement parts specifically for Hayward and Pentair salt systems prevalent in Florida.",
+        "process": [
+          "Step 1: Comprehensive corrosion inspection of all metal components",
+          "Step 2: Salt cell cleaning with diluted muriatic acid solution",
+          "Step 3: Replacement of sacrificial anodes as needed",
+          "Step 4: Wind exposure assessment for chemical adjustment"
+        ],
+        "benefits": [
+          "Extends equipment lifespan in salty air",
+          "Prevents cloudy water from mineral imbalance",
+          "Reduces scaling on tile lines",
+          "Maintains proper chlorine generation"
+        ],
+        "faq": [
+          {
+            "question": "How often should saltwater pools be serviced in Miami?",
+            "answer": "Weekly maintenance is ideal near the ocean. The combination of intense sun, salt air, and frequent rain creates rapidly changing chemical conditions that require professional monitoring."
+          },
+          {
+            "question": "Do you handle salt cell replacements?",
+            "answer": "Yes, we stock common models for Jandy, Pentair, and Hayward systems. Most coastal replacements are needed every 3-5 years versus 7+ years inland."
+          }
+        ]
+      },
+      {
+        "slug": "hurricane-prep-services",
+        "name": "Hurricane Preparation Services",
+        "shortDescription": "Storm-proofing pools before tropical weather hits.",
+        "description": "When hurricanes threaten South Florida, unprotected pools become neighborhood hazards. Our hurricane prep service follows Miami-Dade County's strict windborne debris guidelines for pool safety.\n\nWe lower water levels appropriately for expected rainfall, secure all loose equipment, and add extra chlorine to prevent post-storm algae blooms. For historic Coral Gables homes with original pool cages, we install temporary bracing.\n\nAfter the storm passes, our emergency response team assesses damage, removes debris, and rebalances water chemistry. We've handled over 1,200 storm prep jobs since 2017, including pool safety during Hurricane Ian's 2022 landfall.",
+        "process": [
+          "Step 1: 48-hour pre-storm water level adjustment",
+          "Step 2: Equipment securing with hurricane straps",
+          "Step 3: Chemical stabilization for extended power loss",
+          "Step 4: Post-storm debris removal protocol"
+        ],
+        "benefits": [
+          "Prevents flooding damage to surrounding property",
+          "Protects expensive pool equipment",
+          "Reduces mosquito breeding risks",
+          "Ensures quick post-storm reopening"
+        ],
+        "faq": [
+          {
+            "question": "How much notice do you need before a storm?",
+            "answer": "At least 72 hours for guaranteed service during hurricane season. We prioritize clients based on projected storm surge zones when demand is high."
+          },
+          {
+            "question": "Do you service commercial properties?",
+            "answer": "Yes, we prep condo association pools across Miami Beach and Brickell, coordinating with property managers on evacuation timelines."
+          }
+        ]
+      },
+      {
+        "slug": "historic-pool-restoration",
+        "name": "Historic Pool Restoration",
+        "shortDescription": "Preserving Miami's vintage pools with period-appropriate techniques.",
+        "description": "From Coral Gables' 1920s Mediterranean Revival estates to Mid-Century Modern pools in Miami Shores, we specialize in restoring South Florida's aquatic architectural heritage.\n\nOur team carefully replicates original hydraulic tile patterns using modern waterproofing methods. We've sourced hard-to-find 1940s-era coping stones from local quarries for several historic district projects. For Art Deco pools, we offer authentic color-matching of Depression glass tiles.\n\nAll restoration work meets Miami Preservation Board guidelines while upgrading systems for efficiency. Recent projects include replastering a 1938 pool at Vizcaya and restoring original filtration at The Biltmore Hotel.",
+        "process": [
+          "Step 1: Historical research and materials analysis",
+          "Step 2: Structural integrity testing",
+          "Step 3: Custom material sourcing",
+          "Step 4: Board-approved restoration execution"
+        ],
+        "benefits": [
+          "Maintains property value in historic districts",
+          "Authentic material matches",
+          "Modern efficiency upgrades",
+          "Specialized permitting assistance"
+        ],
+        "faq": [
+          {
+            "question": "Can you restore my pool's original terrazzo deck?",
+            "answer": "Yes, we work with local artisans who still practice traditional terrazzo techniques common in 1950s Miami construction. The process takes 3-5 weeks for proper curing."
+          },
+          {
+            "question": "Do you handle landmark designation applications?",
+            "answer": "We consult on the pool-specific requirements for Miami-Dade's historic preservation program, having helped 17 properties gain protected status since 2019."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-pool-concierge",
+        "name": "Luxury Pool Concierge",
+        "shortDescription": "White-glove service for high-end residential properties.",
+        "description": "For waterfront estates in Fisher Island and Star Island, our concierge service delivers discreet, comprehensive pool care with attention to elite client needs.\n\nStaff are trained in luxury property protocols including noise restrictions, security coordination, and event prep. We maintain perfect water clarity for impromptu entertaining and use commercial-grade equipment scaled for oversized pools common in Palm Beach mansions.\n\nServices include temperature pre-sets for arrivals, lighted fountain synchronization, and coordinating with landscape teams on water feature maintenance. All technicians undergo background checks and drive unmarked vehicles.",
+        "process": [
+          "Step 1: Customized service schedule planning",
+          "Step 2: Discreet equipment installation/maintenance",
+          "Step 3: Event preparation coordination",
+          "Step 4: Privacy-focused communications"
+        ],
+        "benefits": [
+          "24/7 emergency response",
+          "Staff familiar with luxury property protocols",
+          "Commercial-grade equipment for large volumes",
+          "Complete discretion"
+        ],
+        "faq": [
+          {
+            "question": "Do you service infinity edge pools?",
+            "answer": "Our team specializes in vanishing edge systems common in Key Biscayne cliffside homes, with specific training on balancing pumps for consistent sheeting flow."
+          },
+          {
+            "question": "Can you integrate with smart home systems?",
+            "answer": "We regularly sync with Control4, Crestron, and Savant systems for remote monitoring and control of temperature, lighting, and water features."
+          }
+        ]
+      },
+      {
+        "slug": "algae-remediation",
+        "name": "Emergency Algae Remediation",
+        "shortDescription": "24-hour black algae elimination for South Florida pools.",
+        "description": "Miami's tropical climate creates perfect conditions for stubborn black algae infestations. Our emergency service uses industrial-strength treatments not available to consumers, combined with specialized brushing techniques for porous Florida aggregate finishes.\n\nWe developed our protocol after the 2020 seaweed bloom crisis, when thousands of pools developed resistant algae strains. Treatment includes triple-shocking with calcium hypochlorite, followed by sequestering agents to prevent metal staining.\n\nFor severe cases, we offer partial draining and pressure washing with non-abrasive cleaners safe for vintage pool surfaces. All remediations come with a 60-day guarantee against recurrence.",
+        "process": [
+          "Step 1: Microscopic algae strain identification",
+          "Step 2: Custom chemical cocktail mixing",
+          "Step 3: Deep-surface brushing with stainless tools",
+          "Step 4: Follow-up maintenance planning"
+        ],
+        "benefits": [
+          "60-day no-recurrence guarantee",
+          "Safe for delicate finishes",
+          "24/7 emergency availability",
+          "Prevents filter damage"
+        ],
+        "faq": [
+          {
+            "question": "How fast can you clear a green pool?",
+            "answer": "Most cases show improvement within 6 hours and full clarity in 2-3 days. We provide temporary pool enclosures during treatment for high-visibility properties."
+          },
+          {
+            "question": "Do you treat mustard algae?",
+            "answer": "Yes, our yellow algae protocol includes special sanitizers that penetrate its waxy outer layer, common in shady Palm Coast pools with poor circulation."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Hurricane Preparation",
+        "text": "When Hurricane Ian was forecast, Summit had my Coral Gables pool secured within hours. They removed all deck furniture, lowered the water perfectly, and even protected my vintage pool house windows. Came back post-storm to zero damage while neighbors were dealing with flooded equipment pads.",
+        "date": "2022-10-15"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Saltwater Pool Maintenance",
+        "text": "After three companies failed to keep my Bal Harbour salt system running smoothly, Summit solved our corrosion issues with custom anode replacements. Their monthly testing caught a failing cell before it damaged the heater. Two years later, everything still works like new despite being 300 yards from the ocean.",
+        "date": "2023-04-22"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Historic Pool Restoration",
+        "text": "They miraculously matched the original 1947 glass tile in our MiMo District pool. Found replacement pieces from a Miami Beach tear-down and seamlessly integrated them. The Preservation Board approved the work without modifications - first time that's happened according to our architect.",
+        "date": "2023-08-03"
+      },
+      {
+        "name": "Daniel K.",
+        "rating": 5,
+        "service": "Luxury Pool Concierge",
+        "text": "Our Fisher Island estate requires discretion and precision. Summit's team arrives in unmarked vans, coordinates with security, and keeps our 120-ft lap pool at exact 82 degrees year-round. They even adjusted the automation when we hosted a charity gala last winter - flawless execution.",
+        "date": "2023-11-17"
+      },
+      {
+        "name": "Isabella M.",
+        "rating": 5,
+        "service": "Algae Remediation",
+        "text": "Black algae took over our Pinecrest pool after that tropical storm in July. Summit's emergency crew arrived at 9pm with industrial-strength treatment. They pressure-washed the aggregate without damaging it and had the pool swimmable again in 48 hours. Worth every penny.",
+        "date": "2023-07-29"
+      },
+      {
+        "name": "Carlos V.",
+        "rating": 5,
+        "service": "Saltwater Pool Maintenance",
+        "text": "As a condo board president in Sunny Isles, I appreciate how Summit handles our 3 rooftop saltwater pools. They test each one's chemistry separately since wind exposure varies by floor. No more complaints about equipment corrosion since switching to their service last year.",
+        "date": "2023-09-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Miami Pool Service | Hurricane Prep & Saltwater Specialists",
+        "description": "Expert pool maintenance and restoration serving Miami-Dade and Broward counties since 2012. Specializing in coastal salt systems and storm preparation."
+      },
+      "about": {
+        "title": "About Our Miami Pool Service Company",
+        "description": "Learn how Summit Pool Service's local expertise solves South Florida's unique pool challenges from salt corrosion to hurricane protection."
+      },
+      "services": {
+        "title": "Miami Pool Services | Comprehensive Maintenance Solutions",
+        "description": "From luxury concierge care to emergency algae removal, we handle all pool service needs across Miami with climate-appropriate solutions."
+      },
+      "contact": {
+        "title": "Contact Miami's Trusted Pool Service Experts",
+        "description": "Schedule service or get pool advice from our local team. Serving Miami, Fort Lauderdale, Boca Raton, and all surrounding areas."
+      },
+      "reviews": {
+        "title": "Miami Pool Service Reviews | Real Customer Stories",
+        "description": "Read verified reviews from homeowners and businesses across South Florida about their experiences with Summit Pool Service."
+      },
+      "service-areas": {
+        "title": "Miami Pool Service Areas | Local Coverage Map",
+        "description": "We serve communities across Miami-Dade and Broward counties including Coral Gables, Brickell, and coastal neighborhoods."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Lauderdale",
+        "slug": "fort-lauderdale-fl",
+        "state": "FL",
+        "content": "Summit Pool Service specializes in maintaining pristine pools in Fort Lauderdale's historic waterfront homes, many built in the 1960s and 1970s. Our expert team understands the challenges posed by the year-round heat and humidity, ensuring your pool stays crystal clear and properly balanced. From routine cleanings to equipment repairs, we tailor our services to meet the needs of Fort Lauderdale's unique coastal properties.",
+        "localContext": "Known for its boating canals and upscale waterfront residences, Fort Lauderdale's pools require specialized care due to salt air exposure.",
+        "nearbyAreas": [
+          "Wilton Manors",
+          "Oakland Park",
+          "Dania Beach"
+        ]
+      },
+      {
+        "city": "Coral Springs",
+        "slug": "coral-springs-fl",
+        "state": "FL",
+        "content": "Serving Coral Springs' meticulously planned neighborhoods, Summit Pool Service provides top-tier pool maintenance for homes built in the 1980s and 1990s. The subtropical climate demands frequent attention to prevent algae growth and equipment wear. We offer customized chemical treatments and energy-efficient upgrades to keep your pool in peak condition year-round.",
+        "localContext": "This family-oriented community features well-maintained pools as central gathering spots in its suburban developments.",
+        "nearbyAreas": [
+          "Parkland",
+          "Tamarac",
+          "Margate"
+        ]
+      },
+      {
+        "city": "Pembroke Pines",
+        "slug": "pembroke-pines-fl",
+        "state": "FL",
+        "content": "Summit Pool Service expertly maintains pools in Pembroke Pines' expansive 1990s-era planned communities. The constant Florida heat accelerates evaporation and chemical imbalances, requiring our specialized weekly maintenance programs. We're experienced with the common pool designs in these neighborhoods, providing efficient service that respects your property.",
+        "localContext": "Pembroke Pines' master-planned communities feature pools as key amenities for active Florida lifestyles.",
+        "nearbyAreas": [
+          "Miramar",
+          "Hollywood",
+          "Weston"
+        ]
+      },
+      {
+        "city": "Boca Raton",
+        "slug": "boca-raton-fl",
+        "state": "FL",
+        "content": "Summit Pool Service delivers luxury pool maintenance for Boca Raton's upscale waterfront estates. We understand the particular needs of high-end pool systems with features like infinity edges and smart controls. Our white-glove service includes detailed cleaning, pH balancing, and equipment inspections to maintain your pool's impeccable condition.",
+        "localContext": "Boca Raton's affluent neighborhoods demand the highest standards for their resort-style pool installations.",
+        "nearbyAreas": [
+          "Delray Beach",
+          "Highland Beach",
+          "Deerfield Beach"
+        ]
+      },
+      {
+        "city": "West Palm Beach",
+        "slug": "west-palm-beach-fl",
+        "state": "FL",
+        "content": "Specializing in historic home pools, Summit Pool Service preserves the charm of West Palm Beach's 1920s-1950s properties while implementing modern maintenance techniques. We're experts in restoring vintage pool tiles and coping while ensuring contemporary water quality standards. Our services help protect these architectural treasures from Florida's relentless humidity.",
+        "localContext": "West Palm Beach's historic districts feature unique pool designs that require specialized care.",
+        "nearbyAreas": [
+          "Palm Beach",
+          "Lake Worth Beach",
+          "Riviera Beach"
+        ]
+      },
+      {
+        "city": "Miami",
+        "slug": "miami-fl",
+        "state": "FL",
+        "content": "Summit Pool Service provides comprehensive pool care for Miami's diverse residential properties, from modern high-rises to tropical backyard oases. We combat the challenges of year-round pool use with advanced water testing and cleaning protocols. Our bilingual team serves all Miami neighborhoods with prompt, professional service tailored to your pool's specific requirements.",
+        "localContext": "Miami's vibrant pool culture ranges from compact urban pools to extravagant waterfront installations.",
+        "nearbyAreas": [
+          "Miami Beach",
+          "Coral Gables",
+          "Doral"
+        ]
+      },
+      {
+        "city": "Davie",
+        "slug": "davie-fl",
+        "state": "FL",
+        "content": "Summit Pool Service maintains residential pools in Davie's unique blend of suburban and rural properties. We're experienced with both conventional pools and natural swimming ponds that complement the area's equestrian lifestyle. Our services include specialized algae prevention treatments to combat Florida's persistent humidity and afternoon rains.",
+        "localContext": "Davie's semi-rural character means pools often incorporate natural elements alongside traditional designs.",
+        "nearbyAreas": [
+          "Plantation",
+          "Cooper City",
+          "Weston"
+        ]
+      },
+      {
+        "city": "Aventura",
+        "slug": "aventura-fl",
+        "state": "FL",
+        "content": "Summit Pool Service provides premium pool maintenance for Aventura's high-end condominium communities and waterfront estates. We're experts in managing large shared pool facilities as well as private residential pools, with attention to the unique water chemistry needs of each. Our team works efficiently in these dense urban environments to deliver impeccable results.",
+        "localContext": "Aventura's luxury high-rises feature elaborate pool decks that require professional maintenance.",
+        "nearbyAreas": [
+          "North Miami Beach",
+          "Bal Harbour",
+          "Golden Beach"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "saltwater-pool-maintenance": "/images/service-saltwater-pool-maintenance.webp",
+      "historic-pool-restoration": "/images/service-historic-pool-restoration.webp",
+      "luxury-pool-concierge": "/images/service-luxury-pool-concierge.webp",
+      "hurricane-prep-services": "/images/service-hurricane-prep-services.webp",
+      "algae-remediation": "/images/service-algae-remediation.webp"
+    },
+    "servicesResponsive": {
+      "saltwater-pool-maintenance": {
+        "src": "/images/service-saltwater-pool-maintenance.webp",
+        "srcset": "/images/service-saltwater-pool-maintenance-400w.webp 400w, /images/service-saltwater-pool-maintenance-800w.webp 800w, /images/service-saltwater-pool-maintenance-1200w.webp 1200w, /images/service-saltwater-pool-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-pool-restoration": {
+        "src": "/images/service-historic-pool-restoration.webp",
+        "srcset": "/images/service-historic-pool-restoration-400w.webp 400w, /images/service-historic-pool-restoration-800w.webp 800w, /images/service-historic-pool-restoration-1200w.webp 1200w, /images/service-historic-pool-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-pool-concierge": {
+        "src": "/images/service-luxury-pool-concierge.webp",
+        "srcset": "/images/service-luxury-pool-concierge-400w.webp 400w, /images/service-luxury-pool-concierge-800w.webp 800w, /images/service-luxury-pool-concierge-1200w.webp 1200w, /images/service-luxury-pool-concierge.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hurricane-prep-services": {
+        "src": "/images/service-hurricane-prep-services.webp",
+        "srcset": "/images/service-hurricane-prep-services-400w.webp 400w, /images/service-hurricane-prep-services-800w.webp 800w, /images/service-hurricane-prep-services-1200w.webp 1200w, /images/service-hurricane-prep-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "algae-remediation": {
+        "src": "/images/service-algae-remediation.webp",
+        "srcset": "/images/service-algae-remediation-400w.webp 400w, /images/service-algae-remediation-800w.webp 800w, /images/service-algae-remediation-1200w.webp 1200w, /images/service-algae-remediation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
